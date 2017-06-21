@@ -91,6 +91,7 @@ backupi
     OUT
     
 return:
+    BIPUSH 0x1 //Just a return value
     IRETURN
 .end-method
 
@@ -112,9 +113,9 @@ return:
     INVOKEVIRTUAL printntimes
     
 return:
+    BIPUSH 0x2 //Just a return value
     IRETURN
     
 .end-method
 
     
-
